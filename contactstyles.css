@@ -2,20 +2,31 @@
 
 * {
     font-family: 'League Spartan', sans-serif;
+    color: lightpink;
+    font-weight: 200;
 }
 body {
-    background: rgb(36, 35, 35);
+    background-image: url("background-1.jpg");
+    background-size:cover;
+    background-position: 100%;
+    background-repeat:no-repeat;
+    height: 370px;
 }
 h1, .email {
     text-align: center;
 }
-body {
-    border: solid 5px black;
+
+.box {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid transparent;
     border-radius: 10px;
-    margin-top: 50px;
-    padding: 50px;
-    padding-left: 0;
-    padding-right: 0;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .email {
     display: flex;
@@ -24,16 +35,16 @@ body {
     font-weight: 500;
 }
 .second {
-    padding-left: 20px;
+    padding-left: 5px;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: lightpink;
     display: flex;
     justify-content: center;
     margin-top: 15px;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 200;
 }
 a:hover {
     font-size: 28px;
